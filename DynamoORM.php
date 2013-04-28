@@ -22,10 +22,12 @@ abstract class DynamoORM
      * @var dynamoDB a dynamoDB object
      */
     private static $dynamoDB;
+	
     /**
      * @var array the object represented in an array 
      */
     protected $attributes = array();
+	
     /**
      * @var array the orignal value when the object is created
      */
